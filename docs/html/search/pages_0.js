@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['is_20optoctreeparser_0',['What is optoctreeparser?',['../index.html',1,'']]]
+  ['optoctreeparser_0',['optoctreeparser',['../index.html',1,'']]]
 ];

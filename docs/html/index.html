@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>optoctreeparser: What is optoctreeparser?</title>
+<title>optoctreeparser: optoctreeparser</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">What is optoctreeparser? </div></div>
+  <div class="headertitle"><div class="title">optoctreeparser </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_README"></a> This is a C++ library that allows you to work with <code>.optoctrees</code> (as well as <code>.optoctreepatch</code> for the <a href="https://github.com/Esper89/Subnautica-TerrainPatcher/tree/master">TerrainPatcher</a> mod) landscape files in the game Subnautica. It can:</p><ul>
@@ -98,12 +98,24 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>Decode octrees into convenient structures from binary format and encode them back</li>
 <li>Find the difference between two batches to form <code>.optoctreepatch</code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1"></a>
-Documentation</h1>
-<p>The documentation is quite short. [See here]()</p>
-<h1><a class="anchor" id="autotoc_md2"></a>
-Installation:</h1>
-<p>In CMakeLists.txt, write: </p><div class="fragment"></div><!-- fragment --> </div></div><!-- PageDoc -->
+<h2><a class="anchor" id="autotoc_md0"></a>
+Documentation</h2>
+<p>The documentation is quite short. <a href="https://maksimshchavelev.github.io/optoctreeparser/html/">See here</a></p>
+<h2><a class="anchor" id="autotoc_md1"></a>
+Connecting to your project</h2>
+<p>In CMakeLists.txt, write: </p><div class="fragment"><div class="line">include(FetchContent)</div>
+<div class="line"> </div>
+<div class="line">FetchContent_Declare(</div>
+<div class="line">    optoctreeparser</div>
+<div class="line">    GIT_REPOSITORY https://github.com/maksimshchavelev/optoctreeparser.git</div>
+<div class="line">    GIT_TAG        v1.0.0</div>
+<div class="line">)</div>
+<div class="line"> </div>
+<div class="line">FetchContent_MakeAvailable(optoctreeparser)</div>
+<div class="line"> </div>
+<div class="line"># Link with your target</div>
+<div class="line">target_link_libraries(YourApp PRIVATE optoctreeparser)</div>
+</div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -25,8 +25,9 @@
 var NAVTREE =
 [
   [ "optoctreeparser", "index.html", [
-    [ "What is optoctreeparser?", "index.html", "index" ],
     [ "Namespaces", "namespaces.html", [
+      [ "Documentation", "index.html#autotoc_md0", null ],
+      [ "Connecting to your project", "index.html#autotoc_md1", null ],
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],

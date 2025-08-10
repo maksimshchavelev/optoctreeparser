@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['differ_0',['Differ',['../classoptoctreeparser_1_1Differ.html',1,'optoctreeparser']]],
-  ['differ_2ehpp_1',['differ.hpp',['../differ_8hpp.html',1,'']]],
-  ['documentation_2',['Documentation',['../index.html#autotoc_md1',1,'']]]
+  ['connecting_20to_20your_20project_0',['Connecting to your project',['../index.html#autotoc_md1',1,'']]]
 ];

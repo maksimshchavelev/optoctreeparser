@@ -10,7 +10,7 @@ var searchData=
   ['optocpatchtree_7',['OptocPatchTree',['../structoptoctreeparser_1_1OptocPatchTree.html',1,'optoctreeparser']]],
   ['optocroot_8',['OptocRoot',['../structoptoctreeparser_1_1OptocRoot.html',1,'optoctreeparser']]],
   ['optoctree_9',['OptocTree',['../structoptoctreeparser_1_1OptocTree.html',1,'optoctreeparser']]],
-  ['optoctreeparser_10',['optoctreeparser',['../namespaceoptoctreeparser.html',1,'optoctreeparser'],['../index.html',1,'What is optoctreeparser?']]],
+  ['optoctreeparser_10',['optoctreeparser',['../namespaceoptoctreeparser.html',1,'optoctreeparser'],['../index.html',1,'optoctreeparser']]],
   ['optoctreeview_11',['OptocTreeView',['../namespaceoptoctreeparser.html#a6b4e1a0e0c2ebdbd99fdaf86ce0b6a78',1,'optoctreeparser']]],
   ['optoctreeview_5ffrom_5ffile_12',['optoctreeview_from_file',['../classoptoctreeparser_1_1Reader.html#ae3522fed91fe63a142c6fa76c5e0bff8',1,'optoctreeparser::Reader']]],
   ['optoctreeview_5fto_5ffile_13',['optoctreeview_to_file',['../classoptoctreeparser_1_1Writer.html#a6ce162cfa9e36ff009e9f5d5b6d26c0c',1,'optoctreeparser::Writer']]]
